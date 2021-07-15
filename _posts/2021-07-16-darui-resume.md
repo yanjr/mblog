@@ -7,7 +7,7 @@ date:   2021-07-16 06:02:00 +0800
 
 <h1>严佳瑞 简历</h1>
 
-**基本信息：** 严佳瑞 / 男 / 32&emsp;&emsp;&emsp;&emsp;**手&ensp;机&ensp;号：** 185 **** 6835&emsp;&emsp;&emsp;&emsp;**邮&emsp;&emsp;箱：** big123@126.com
+**基本信息：** 严佳瑞 / 男 / 32&emsp;&emsp;&emsp;&emsp;**手&ensp;机&ensp;号：** 185 \*\*\*\* 6835&emsp;&emsp;&emsp;&emsp;**邮&emsp;&emsp;箱：** big123@126.com
 
 
 

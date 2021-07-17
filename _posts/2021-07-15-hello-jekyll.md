@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "hello-jekyll"
-category: [jekyll]
+category: [jekyll, hello]
+tag: [jek, hell]
 date:   2021-07-15 07:14:40 +0800
 ---
 

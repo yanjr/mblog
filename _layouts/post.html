@@ -8,19 +8,7 @@ layout: default
         
 {% if site.disqus-id %} {% include comments.html %} {% endif %}
 
-<!--文章尾部添加tags-->
-      {%if page.tags.size > 0 %}
-        <div class="blog-tags">
-          Tags:
-          {%if site.link-tags %}
-          {%for tag in page.tags %}
-            <a href="{{ '/tags' | relative_url }}/#{{- tag -}}">{{- tag -}}</a>
-          {%endfor %}
-          {%else %}
-            {{ page.tags | join: ", " }}
-          {%endif %}
-        </div>
-      {%endif %}
+
 
 	<!--添加分类-->
 	 {%if page.categories.size > 0 %}

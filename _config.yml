@@ -27,4 +27,4 @@ sass:
     sass_dir: assets/css/
 
 # 添加category内容
-permalink: /:categories/:title/
+#permalink: /:categories/:title/

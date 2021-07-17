@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "hello-jekyll"
-category: [jekyll, hello]
-tag: [jek, hell]
 date:   2021-07-15 07:14:40 +0800
+category: [jekyll, hello]
 ---
 
 True minimal theme is extremely lightweight and ascetic jekyll theme.

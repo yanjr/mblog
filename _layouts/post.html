@@ -14,7 +14,7 @@ layout: default
           Tags:
           {%if site.link-tags %}
           {%for tag in page.tags %}
-            <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
+            <a href="{{ '/tags' | relative_url }}/#{{- tag -}}">{{- tag -}}</a>
           {%endfor %}
           {%else %}
             {{ page.tags | join: ", " }}

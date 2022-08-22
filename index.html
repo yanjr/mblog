@@ -4,7 +4,7 @@ layout: default
 
 {% for post in paginator.posts %}
 <section>
- 
+ {{ post.tag }}
     {% if post.tag contains "hidden" %}
     {{ post.tag }}
     {% else %}

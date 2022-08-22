@@ -6,11 +6,11 @@ layout: default
 <section>
  
     {% if post.tags contains "hidden" %}
-    {{ post.tags }}
+    
     {% else %}
   <h2>
     <a href='{{ site.url }}{{ post.url }}' title='{{ post.title }}'>
-      {{ post.title }}{{ post.tag }}
+      {{ post.title }}
     </a>
   </h2>
     {% endif %}

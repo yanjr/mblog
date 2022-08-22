@@ -3,16 +3,13 @@ layout: page
 permalink: /tags/
 title: 博客标签
 ---
-
 <!--添加搜索框-->
 <br/>
 <!-- HTML elements for search -->
 <input type="text" id="search-input" placeholder="搜索博客 - 输入标题/相关内容/日期/Tags.." style="width:380px;"/>
 <ul id="results-container"></ul>
-
 <!-- script pointing to jekyll-search.js -->
 <script src="{{ site.baseurl }}/js/simple-jekyll-search.min.js"></script>
-
 <script>
 SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
@@ -25,8 +22,6 @@ SimpleJekyllSearch({
   })
 </script>
 <br/>
-
-
 <div id="archives">
 {%for tag in site.tags %}
   <div class="archive-group">
@@ -34,8 +29,13 @@ SimpleJekyllSearch({
     <div id="#{{ tag_name | slugize }}"></div>
     <p></p>
 
-    
-    
+    <h3 class="tag-head">{{ tag _name }} ({{site.tags[tag_name].size()}})</h3>
+    <a name="{{ tag _name | slugize }}"></a>
+    {%for post in site.tag[tag_name] %}
+    <article class="archive-item">
+      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+    </article>
+    {%endfor %}
   </div>
 {%endfor %}
 </div>

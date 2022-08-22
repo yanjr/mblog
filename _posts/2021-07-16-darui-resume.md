@@ -2,7 +2,7 @@
 layout: post
 title:  "Darui's resume"
 date:   2021-07-16 06:02:00 +0800
-tags: hidden resume test1
+tags: resume test1
 ---
 
 

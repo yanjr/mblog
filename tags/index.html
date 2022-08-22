@@ -23,6 +23,11 @@ SimpleJekyllSearch({
 </script>
 <br/>
 
+CATEGORIES
+
+---
+
+<div id="archives">
 {% capture temptags %}
 {% for tag in site.tags %}
   {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
@@ -34,21 +39,7 @@ SimpleJekyllSearch({
   {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
     <a href="/tag/{{ tagname }}"><code class="highligher-rouge"><nobr>{{ tagname }}</nobr></code></a>
 {% endfor %}
-
-<div id="archives">
-{%for tag in site.tags %}
-  <div class="archive-group">
-    {%capture tag_name %}{{ tag | first }}{%endcapture %}
-    <div id="#{{ tag_name | slugize }}"></div>
-    <p></p>
-
-    <h3 class="tag-head">{{ tag _name }} ({{site.tags[tag_name].size()}})</h3>
-    <a name="{{ tag _name | slugize }}"></a>
-    {%for post in site.tags[tag_name] %}
-    <article class="archive-item">
-      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
-    </article>
-    {%endfor %}
-  </div>
-{%endfor %}
 </div>
+
+
+

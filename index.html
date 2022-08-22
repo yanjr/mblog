@@ -13,10 +13,9 @@ layout: default
       {{ post.title }}
     </a>
   </h2>
+  <p>{{ post.excerpt | strip_html | truncate: 250 }}</p>
     {% endif %}
 
-  
-  <p>{{ post.excerpt | strip_html | truncate: 250 }}</p>
 </section>       
 {% endfor %}
 

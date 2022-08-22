@@ -31,7 +31,7 @@ SimpleJekyllSearch({
 
     <h3 class="tag-head">{{ tag _name }} ({{site.tags[tag_name].size()}})</h3>
     <a name="{{ tag _name | slugize }}"></a>
-    {%for post in site.tag[tag_name] %}
+    {%for post in site.tags[tag_name] %}
     <article class="archive-item">
       <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
     </article>

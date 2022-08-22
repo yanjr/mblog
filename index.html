@@ -5,8 +5,8 @@ layout: default
 {% for post in paginator.posts %}
 <section>
  
-    {% if post.tag contains "hidden" %}
-    {{ post.tag }}
+    {% if post.tags contains "hidden" %}
+    {{ post.tags }}
     {% else %}
   <h2>
     <a href='{{ site.url }}{{ post.url }}' title='{{ post.title }}'>

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "UFW firewall simple setup"
-date:   2019-02-03 10:22:00 +0800
+title: "UFW firewall simple setup"
+date: 2019-02-03 10:22:00 +0800
 category: [linux]
 tag: [linux ufw 防火墙 firewall]
 ---

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Liunx下的日志切割工具-logrotate"
 author: yanjr
 tags:

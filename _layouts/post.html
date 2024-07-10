@@ -36,4 +36,18 @@ layout: default
             {% endfor %}
             ]</span>
 	{%endif %}
-
+<!-- github commint -->
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'Your GitHub username',
+    repo: 'The repo to store comments',
+    oauth: {
+        client_id: 'Ov23liSeMp34hnSGgUOi',
+        client_secret: '6b05e32b4bad175514152975229db7fdebbd025e',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
